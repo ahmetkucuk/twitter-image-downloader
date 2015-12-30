@@ -88,6 +88,7 @@ public class TwitterImageDownloader {
     public void useMessage(String msg) {
 
         JsonObject media1 = getMediaJsonObject(msg);
+
         if(media1 != null && media1.has("media_url")) {
             String url = media1.get("media_url").getAsString();
             if(url.contains("jpg") || url.contains("jpeg")) {
