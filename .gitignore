@@ -37,6 +37,7 @@ overs JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, And
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+target/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
